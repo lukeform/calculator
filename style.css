@@ -1,0 +1,95 @@
+body{
+
+    margin: 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header{
+
+    display: flex;
+    height: 150px;
+    background-color: beige;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+
+    display: flex;
+    height: 900px;
+    background-color: coral;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.calculator{
+
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 800px;
+    background-color: darkgreen;
+    align-items: center;
+}
+.buttons{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 750px;
+    background-color: beige;
+    margin: 25px;
+    flex-direction: column;
+    gap: 2px;
+}
+
+button{
+
+    height: 80px;
+    width: 130px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: large;
+}
+#zero{
+
+    width: 260px;
+
+
+}
+
+#zero, #one, #two, #three, #four, #five, #six, #seven, #eight, #nine{
+
+    background-color:darkorange;
+}
+
+#AC, #positive, #percent, #divide, #multiply, #minus, #addition, #dot{
+
+    background-color: burlywood;
+}
+
+#enter{
+
+    background-color: green;
+}
+
+.screen{
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size:xx-large;
+    font-weight: bolder;
+    height: 100px;
+    width: 700px;
+    background-color: azure;
+    margin: 30px;
+}
+
+footer{
+
+    display: flex;
+    position: absolute;
+}
